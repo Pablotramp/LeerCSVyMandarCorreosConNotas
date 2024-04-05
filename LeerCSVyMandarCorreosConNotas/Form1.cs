@@ -57,8 +57,8 @@ namespace LeerCSVyMandarCorreosConNotas
             if (LblRutaFichero.Text != "")
             {
                 CargarFichero(infoFichero.FullName);
-                string profesorEmail = "ptramen.cec@gmail.com";
-                string profesorPass = "vdvvixfklcyejvfm";
+                string profesorEmail = "XXXXXXX@gmail.com";
+                string profesorPass = "XXXXXXXX";
 
                 System.Net.Mail.SmtpClient smtpGmail = new System.Net.Mail.SmtpClient();
                 System.Net.Mail.MailMessage miCorreo = new System.Net.Mail.MailMessage();
